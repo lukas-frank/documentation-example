@@ -1,2 +1,2 @@
 # exclude build files for doc
-_build/
+#_build/
