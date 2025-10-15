@@ -22,7 +22,8 @@ autodoc2_packages = [
 ]
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+#exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['Thumbs.db', '.DS_Store']  # don't exclude build files for now
 
 
 # -- Options for HTML output -------------------------------------------------
