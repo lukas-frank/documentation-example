@@ -14,7 +14,7 @@ jobs:
           pip install pytest-selenium
     
       - name: Test with PyTest
-        run: pytest --html=tests/Reports/Report.html  
+        run: pytest tests --html=tests/Reports/Report.html  
  
       - name: Test Report Generation
         uses: actions/upload-artifact@v4
